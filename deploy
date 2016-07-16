@@ -1,2 +1,2 @@
-git push github master;
-git subtree push --prefix dist github gh-pages;
+git push github master
+git subtree push --prefix dist github gh-pages
