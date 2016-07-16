@@ -1,0 +1,130 @@
+//
+// Styleguide Helpers.Margins
+//
+
+
+// Add 0.5rem top margin.
+//
+// Markup: <div class="margin-top-smallest border">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin top smallest
+.margin-top-smallest { margin-top: 0.5rem; }
+
+// Add 0.75rem top margin.
+//
+// Markup: <div class="margin-top-smaller">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin top smaller
+.margin-top-smaller { margin-top: 0.75rem; }
+
+// Add 1rem top margin.
+//
+// Markup: <div class="margin-top-small">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin top small
+.margin-top-small { margin-top: 1rem; }
+
+// Add 1.5rem top margin.
+//
+// Markup: <div class="margin-top">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin top
+.margin-top { margin-top: 1.5rem; }
+
+// Add 2rem top margin.
+//
+// Markup: <div class="margin-top-large">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin top large
+.margin-top-large { margin-top: 2rem; }
+
+// Add 3rem top margin.
+//
+// Markup: <div class="margin-top-larger">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin top larger
+.margin-top-larger { margin-top: 3rem; }
+
+
+// Add 0.5rem bottom margin.
+//
+// Markup: <div class="margin-bottom-smallest">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin bottom smallest
+.margin-bottom-smallest { margin-bottom: 0.5rem; }
+
+// Add 0.75rem bottom margin.
+//
+// Markup: <div class="margin-bottom-smaller">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin bottom smaller
+.margin-bottom-smaller { margin-bottom: 0.75rem; }
+
+// Add 1rem bottom margin.
+//
+// Markup: <div class="margin-bottom-small">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin bottom small
+.margin-bottom-small { margin-bottom: 1rem; }
+
+// Add 1.5rem bottom margin.
+//
+// Markup: <div class="margin-bottom">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin bottom
+.margin-bottom { margin-bottom: 1.5rem; }
+
+// Add 2rem bottom margin.
+//
+// Markup: <div class="margin-bottom-large">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin bottom large
+.margin-bottom-large { margin-bottom: 2rem; }
+
+// Add 3rem bottom margin.
+//
+// Markup: <div class="margin-bottom-larger">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin bottom larger
+.margin-bottom-larger { margin-bottom: 3rem; }
+
+// Add -1.5rem top margin.
+//
+// Markup: <div class="margin-top-negative">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin top negative
+.margin-top-negative { margin-top: -1.5rem !important; }
+
+
+// Add -1.5rem top margin.
+//
+// Markup: <div class="margin-top-negative">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin top negative
+.margin-top-negative-large { margin-top: -3rem !important; }
+
+
+// Add -1.5rem top margin.
+//
+// Markup: <div class="margin-top-negative">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.Margin top negative
+.margin-top-negative-larger {
+  position: relative;
+  top: -5rem;
+  margin-bottom: -5rem !important;
+}
+
+// Remove top margin
+//
+// Markup: <div class="no-margin-top">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.No top margin
+.no-margin-top { margin-top: 0 !important; }
+
+// Remove bottom margin
+//
+// Markup: <div class="no-margin-bottom">Some text in a div</div>
+//
+// Styleguide Helpers.Margins.No bottom margin
+.no-margin-bottom { margin-bottom: 0 !important; }

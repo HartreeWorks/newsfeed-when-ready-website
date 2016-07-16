@@ -1,0 +1,120 @@
+//
+// Styleguide Helpers.Padding
+//
+
+
+// Add 0.5rem top padding.
+//
+// Markup: <div class="padding-top-smallest">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding top smallest
+.padding-top-smallest { padding-top: 0.5rem; }
+
+// Add 0.75rem top padding.
+//
+// Markup: <div class="padding-top-smaller">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding top smaller
+.padding-top-smaller { padding-top: 0.75rem; }
+
+// Add 1rem top padding.
+//
+// Markup: <div class="padding-top-small">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding top small
+.padding-top-small { padding-top: 1rem; }
+
+// Add 1.5rem top padding.
+//
+// Markup: <div class="padding-top">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding top
+.padding-top { padding-top: 1.5rem; }
+
+// Add 2rem top padding.
+//
+// Markup: <div class="padding-top-large">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding top large
+.padding-top-large { padding-top: 2rem; }
+
+// Add 3rem top padding.
+//
+// Markup: <div class="padding-top-larger">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding top larger
+.padding-top-larger { padding-top: 3rem; }
+
+// Add 0.5rem bottom padding.
+//
+// Markup: <div class="padding-bottom-smallest">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding bottom smallest
+.padding-bottom-smallest { padding-bottom: 0.5rem; }
+
+// Add 0.75rem bottom padding.
+//
+// Markup: <div class="padding-bottom-smaller">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding bottom smaller
+.padding-bottom-smaller { padding-bottom: 0.75rem; }
+
+// Add 1rem bottom padding.
+//
+// Markup: <div class="padding-bottom-small">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding bottom small
+.padding-bottom-small { padding-bottom: 1rem; }
+
+// Add 1.5rem bottom padding.
+//
+// Markup: <div class="padding-bottom">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding bottom
+.padding-bottom { padding-bottom: 1.5rem; }
+
+// Add 2rem bottom padding.
+//
+// Markup: <div class="padding-bottom-large">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding bottom large
+.padding-bottom-large { padding-bottom: 2rem; }
+
+// Add 3rem bottom padding.
+//
+// Markup: <div class="padding-bottom-larger">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding bottom larger
+.padding-bottom-larger { padding-bottom: 3rem; }
+
+// Add 15px left padding.
+//
+// Markup: <div class="padding-left">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding left
+.padding-left { padding-left: 15px; }
+
+// Add 15px right padding.
+//
+// Markup: <div class="padding-right">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding right
+.padding-right { padding-right: 15px; }
+
+// Add 15px left padding and 15px right padding.
+//
+// Markup: <div class="padding-horizontal">Some text in a div</div>
+//
+// Styleguide Helpers.Padding.Padding horizontal
+.padding-horizontal {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-padding-right {
+  padding-right: 0 !important;
+}
