@@ -4,6 +4,7 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+@import "helpers/_bootstrap-xxs.scss";
 @import "helpers/_margins.scss";
 @import "helpers/_padding.scss";
 
@@ -25,6 +26,8 @@ body {
 
   background-color: $iwr-blue;
   color: $iwr-white;
+
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 html {
