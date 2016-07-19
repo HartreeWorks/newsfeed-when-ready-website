@@ -68,8 +68,12 @@ p {
 }
 
 .screenshot {
-  padding: 10px;
   background-color: $iwr-white;
+  padding: 5px;
+
+  @media screen and (min-width: $screen-sm) {
+    padding: 10px;
+  }
 
   img {
     width: 100%;
