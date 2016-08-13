@@ -199,3 +199,33 @@ td {
     border-bottom: 0;
   }
 }
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.wrap-icon-install {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: inline-block;
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 12px;
+  border-right: 1px solid darken(#4cae4c, 10%);
+}
+
+.wrap-text-install {
+  padding-left: 47px;
+}
+
+.btn-install {
+  position: relative;
+}
