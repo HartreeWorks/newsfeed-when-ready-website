@@ -16,7 +16,7 @@ installButtons.forEach(function(installButton) {
       chrome.webstore.install(webstoreUrl, function() {
         // Inline install succeeded
         installButtonLabels.forEach(function(installButtonLabel) {
-          installButtonLabel.innerText = 'Install complete'
+          installButtonLabel.innerText = 'Install complete :)'
         });
       },
       function() {
