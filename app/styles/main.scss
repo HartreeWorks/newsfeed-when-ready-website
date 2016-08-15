@@ -93,6 +93,14 @@ td {
   }
 }
 
+.embed-responsive {
+  border: 5px solid $iwr-white;
+
+  @media screen and (min-width: $screen-sm) {
+    border-width: 10px;
+  }
+}
+
 .header {
   h1 {
     margin-top: 32px;
