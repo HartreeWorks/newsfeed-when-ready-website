@@ -40,8 +40,13 @@ p {
 }
 
 blockquote {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 300;
+
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
 }
 
 a {
@@ -253,7 +258,8 @@ blockquote {
 }
 
 cite {
-  //display: block;
+  display: block;
+  font-style: normal;
 }
 
 .well {
