@@ -29,6 +29,7 @@ body {
   color: $iwr-white;
 
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 html {
@@ -70,6 +71,7 @@ h4,
 h5,
 h6 {
   color: $iwr-white;
+  font-weight: 600;
 
   &:first-child {
     margin-top: 0;
