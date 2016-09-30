@@ -274,3 +274,41 @@ cite {
   margin-left: auto;
   margin-right: auto;
 }
+
+.top-bar {
+  width: 100%;
+  background-color: darken($iwr-blue, 20%);
+  z-index: 100;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: $screen-sm) {
+  .top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+input.email {
+  width: 250px;
+}
+
+.coming-soon {
+  display: none;
+}
+
+.is-firefox,
+.is-safari {
+  padding-top: 0;
+
+  @media screen and (min-width: $screen-sm) {
+    padding-top: 132px;
+  }
+
+
+  .coming-soon {
+    display: block;
+  }
+}

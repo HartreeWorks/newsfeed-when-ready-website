@@ -3,8 +3,11 @@ var installButtonLabels = document.querySelectorAll('.wrap-text-install');
 
 var webstoreUrl = 'https://chrome.google.com/webstore/detail/cdedhgmbfjhobfnphaoihdfmnjidcpim';
 
-installButtons.forEach(function(installButton) {
-  installButton.addEventListener('click', function(e) {
+console.log(installButtons);
+console.log('hmm');
+
+for (var i = 0; i < installButtons.length; ++i) {
+  installButtons[i].addEventListener('click', function(e) {
 
     ga('send', 'event', 'Inline install', 'Started');
 
@@ -37,4 +40,15 @@ installButtons.forEach(function(installButton) {
       ga('send', 'event', 'Inline install', 'Failed: browser was not Google Chrome.');
     }
   });
-})
+}
+
+var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+
+if(isFirefox){
+   document.querySelector('body').className += ' is-firefox';
+}
+
+if(isSafari){
+   document.querySelector('body').className += ' is-safari';
+}
