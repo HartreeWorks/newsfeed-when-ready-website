@@ -95,6 +95,15 @@ gulp.task('extras', () => {
   }).pipe(gulp.dest('dist'));
 });
 
+gulp.task('uninstalled', () => {
+  return gulp.src([
+    'app/uninstalled/*.*',
+    'app/uninstalled/index.html',
+  ], {
+    dot: true
+  }).pipe(gulp.dest('dist/uninstalled'));
+});
+
 gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
 
 gulp.task('serve', ['styles', 'scripts', 'fonts'], () => {
@@ -166,7 +175,7 @@ gulp.task('wiredep', () => {
     .pipe(gulp.dest('app'));
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'extras'], () => {
+gulp.task('build', ['lint', 'html', 'images', 'extras', 'uninstalled'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
