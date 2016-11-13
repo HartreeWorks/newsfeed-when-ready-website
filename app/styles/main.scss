@@ -135,10 +135,18 @@ td {
 }
 
 .header__logo {
-
   img {
     width: 100%;
     height: auto;
+  }
+}
+
+@media screen and (min-width: $screen-md) {
+  .header__logo {
+    img {
+      width: 90%;
+      margin-left: 5%;
+    }
   }
 }
 
@@ -290,6 +298,11 @@ cite {
     top: 0;
     left: 0;
   }
+}
+
+.btn-success {
+  //@include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+  @include button-variant($nwr-white, $nwr-blue, $nwr-blue);
 }
 
 input.email {
