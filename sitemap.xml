@@ -1,8 +1,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-<loc>https://inboxwhenready.org/</loc>
+<loc>https://newsfeedwhenready.org/</loc>
 </url>
 <url>
-<loc>https://inboxwhenready.org/inbox-pause-alternative.html</loc>
+<loc>https://newsfeedwhenready.org/newsfeed-pause-alternative.html</loc>
 </url>
 </urlset>
