@@ -8,10 +8,11 @@ $icon-font-path: '../fonts/';
 @import "helpers/_margins.scss";
 @import "helpers/_padding.scss";
 
-$iwr-blue: #4285f4;
-$iwr-red: #ea4848;
-$iwr-white: #fff;
-$iwr-black: #333;
+$nwr-blue: #3b5998;
+$nwr-red: #ea4848;
+$nwr-white: #fff;
+$nwr-black: #333;
+$nwr-gray: #f7f7f7;
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -25,8 +26,8 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 
-  background-color: $iwr-blue;
-  color: $iwr-white;
+  background-color: $nwr-gray;
+  color: $nwr-black;
 
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
@@ -51,11 +52,11 @@ blockquote {
 }
 
 a {
-  color: $iwr-white;
+  color: $nwr-blue;
   text-decoration: underline;
 
   &:hover {
-    color: $iwr-white;
+    color: $nwr-blue;
     text-decoration: none;
   }
 
@@ -70,7 +71,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $iwr-white;
+  color: $nwr-black;
   font-weight: 600;
 
   &:first-child {
@@ -97,7 +98,7 @@ td {
 }
 
 .screenshot {
-  background-color: $iwr-white;
+  background-color: $nwr-white;
   padding: 5px;
 
   @media screen and (min-width: $screen-sm) {
@@ -111,7 +112,7 @@ td {
 }
 
 .embed-responsive {
-  border: 5px solid $iwr-white;
+  border: 5px solid $nwr-white;
 
   @media screen and (min-width: $screen-sm) {
     border-width: 8px;
@@ -162,7 +163,7 @@ td {
     width: 50%;
 
     &:first-child {
-      border-right: 1px solid $iwr-white;
+      border-right: 1px solid $nwr-white;
       padding-right: 15px;
     }
 
@@ -175,7 +176,7 @@ td {
 
 /* Custom page footer */
 .footer {
-  //border-top: 1px solid $iwr-white;
+  //border-top: 1px solid $nwr-white;
 }
 
 .container-narrow > hr {
@@ -277,7 +278,7 @@ cite {
 
 .top-bar {
   width: 100%;
-  background-color: darken($iwr-blue, 20%);
+  background-color: darken($nwr-blue, 20%);
   z-index: 100;
   padding: 16px;
   margin-bottom: 32px;
